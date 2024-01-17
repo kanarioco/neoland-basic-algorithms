@@ -13,3 +13,8 @@ teniendo dos variables p = 10 y j = 5.
 1.5 Usa el correcto operador de asignación que resultará en i = 50,
 teniendo dos variables c = 10 y m = 5.
 */
+
+let x = 10;
+x *= 5;
+console.log(x); 
+
