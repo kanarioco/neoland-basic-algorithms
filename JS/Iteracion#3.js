@@ -14,7 +14,37 @@ teniendo dos variables p = 10 y j = 5.
 teniendo dos variables c = 10 y m = 5.
 */
 
+
+/*       //!   DUDA   //
+let x = 10;
+
+
+console.log(x *= 5); // => 50
+
+
+console.log(x /= 2); // => 25 ?????
+*/
+
+
 let x = 10;
 x *= 5;
-console.log(x); 
+console.log(x);
+
+
+let y = 10;
+y /= 2;
+console.log(y);
+
+
+console.log(15 % 9);
+
+
+let p = 10;
+let j = 5;
+console.log(`o = ${p + j}`);
+
+
+let c = 10;
+let m = 5;
+console.log(`i = ${c * m}`);
 
