@@ -20,3 +20,22 @@ const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lap
 1.6 Elimina el segundo elemento del array y muestra el array por consola.
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 */
+
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]);
+
+
+avengers.splice(0, 1, "IRONMAN")
+console.log(avengers);
+
+
+console.log(avengers.length);
+
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty", "Summer")
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length -1]);
+
+
+//! unshift ---- añade elemento al principio ,, shift ----- elimina elemento l principio

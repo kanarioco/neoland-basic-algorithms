@@ -15,16 +15,6 @@ teniendo dos variables c = 10 y m = 5.
 */
 
 
-/*       //!   DUDA   //
-let x = 10;
-
-
-console.log(x *= 5); // => 50
-
-
-console.log(x /= 2); // => 25 ?????
-*/
-
 
 let x = 10;
 x *= 5;
