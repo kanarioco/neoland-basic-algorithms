@@ -38,4 +38,13 @@ rickAndMortyCharacters.push("Morty", "Summer")
 console.log(rickAndMortyCharacters[rickAndMortyCharacters.length -1]);
 
 
-//! unshift ---- añade elemento al principio ,, shift ----- elimina elemento l principio
+const rickAndMortyCharacters1 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters1.pop()
+console.log(rickAndMortyCharacters1[0], rickAndMortyCharacters1[4]);
+
+
+const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters2.splice(1, 1)
+console.log(rickAndMortyCharacters2);
+
+// OK
