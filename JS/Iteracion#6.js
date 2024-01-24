@@ -25,3 +25,10 @@ for (let ejer1 = 0; ejer1 <= 9; ejer1++) {
     console.log(ejer1);
   }
 
+
+
+for (let ejer2 = 0; ejer2 <= 9; ejer2++) {
+  if(ejer2 % 2 == 0) {
+		console.log(ejer2)
+	}
+}
