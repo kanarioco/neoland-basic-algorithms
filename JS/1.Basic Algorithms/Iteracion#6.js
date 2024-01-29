@@ -32,3 +32,15 @@ for (let ejer2 = 0; ejer2 <= 9; ejer2++) {
 		console.log(ejer2)
 	}
 }
+
+
+
+for (let ejer3 = 1; ejer3 <= 10; ejer3++) {
+  if (ejer3 < 10) {
+    console.log('Intentando dormir 🐑')
+  } else {
+    console.log('Dormido!');
+  }
+}
+  
+// OK 
