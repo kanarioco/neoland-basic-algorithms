@@ -32,7 +32,10 @@ const avengers = [
 ];
 
 
+
 function findLongestWord(param) {
-  return param.reduce((a, b) => a.length < b.length ? b : a);
+  return param.reduce((personA, personB) => personA.length < personB.length ? personB : personA);
 }
 console.log(findLongestWord(avengers));
+
+// OK
