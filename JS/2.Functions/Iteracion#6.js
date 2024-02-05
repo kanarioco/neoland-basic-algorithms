@@ -46,7 +46,9 @@ const duplicates = [
   function removeDuplicates(param) {
    
     return param.filter((prodA, prodB) => prodA = prodB )
+
   }
+console.log(removeDuplicates(duplicates));
 */
 
 
@@ -60,6 +62,6 @@ function removeDuplicates(param) {
    }
 
   console.log(removeDuplicates(duplicates));
- */ 
+ */
 
 

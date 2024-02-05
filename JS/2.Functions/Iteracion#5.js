@@ -19,3 +19,17 @@ const mixedElements = [6, 1, "Rayo", 1, "vallecano", "10", "upgrade", 8, "hub"];
 function averageWord(param) {
   // insert code
 }
+
+ 
+  
+  if (mixedElements.filter(el => typeof el === 'number')) {
+    mixedElements.reduce((a, b) => a + b)
+     
+    else if (mixedElements.filter(el => typeof el === 'string')) {
+      mixedElements.reduce()
+    } else {
+      
+    }
+  }  
+  
+
