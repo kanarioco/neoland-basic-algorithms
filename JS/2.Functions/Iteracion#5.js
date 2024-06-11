@@ -16,20 +16,21 @@ function averageWord(param) {
 
 
 const mixedElements = [6, 1, "Rayo", 1, "vallecano", "10", "upgrade", 8, "hub"];
+
+
+
 function averageWord(param) {
-  // insert code
-}
-
  
-  
-  if (mixedElements.filter(el => typeof el === 'number')) {
-    mixedElements.reduce((a, b) => a + b)
-     
-    else if (mixedElements.filter(el => typeof el === 'string')) {
-      mixedElements.reduce()
-    } else {
-      
-    }
-  }  
-  
+  const num = param.filter(el => typeof el == "number") ; // [ 6, 1, 1, 8 ]
+      const sum1 = num.reduce((a, b)=> a + b ) ; // 16
 
+  const stri = param.filter(el =>typeof el == "string") ; // [ 'Rayo', 'vallecano', '10', 'upgrade', 'hub' ]
+      const eachElLength = stri.map((el)=> el.length) ; // [ 4, 9, 2, 7, 3 ]
+      const sum2 = eachElLength.reduce((a, b)=> a + b) ; // 25
+
+    return console.log(sum1 + sum2); // 16 + 25
+ }
+
+averageWord(mixedElements)
+
+// OK

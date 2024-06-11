@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: transparent;
+  transition: box-shadow 0.2s; 
+  cursor: pointer;
+  
+}
+
+button:hover {
+  box-shadow: 0 0 0 3px #011e135d, 0 0 0 2px #2eda98;
+}
+
+.active {
+  box-shadow: 0 0 0 3px #011e135d, 0 0 0 2px #2eda98;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+

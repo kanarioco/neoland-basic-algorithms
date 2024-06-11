@@ -1,0 +1,13 @@
+#team {
+    display: flex;
+    align-items: center;
+}
+
+#sport {
+    margin: 10%;
+    margin-top: 0;
+}
+
+#favorite {
+    font-weight: lighter;
+}

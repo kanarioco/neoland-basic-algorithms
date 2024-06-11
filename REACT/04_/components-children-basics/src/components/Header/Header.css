@@ -1,0 +1,28 @@
+
+
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0.9; }
+    50% { opacity: 0.8; }
+  }
+  
+  @keyframes changeColor {
+    0% { color: #b3a8ff; } /* color inicial */
+    50% { color: #6a5acd; } /* color intermedio */
+    100% { color: #b3a8ff; } /* color final */
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: #b3a8ff; /* color inicial */
+    animation: flicker 0.8s infinite alternate, changeColor 5s infinite;
+  }
+
+  .Header {
+    background: radial-gradient(circle, #b3a8ff 0%, #8a2be2 20%, #8a2be2 80%, #b3a8ff 100%);
+    background-color: #b3a8ff;
+    animation: flicker 0.8s infinite alternate, changeColor 5s infinite;
+  }

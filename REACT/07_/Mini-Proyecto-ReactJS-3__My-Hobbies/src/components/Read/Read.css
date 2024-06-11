@@ -1,0 +1,42 @@
+#book {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+#fechaPub {
+    font-weight: lighter;
+    font-size: 70%;
+
+}
+
+#datosAut {
+    font-weight: lighter;
+    font-size: 85%;
+
+}
+
+ul {
+    margin-left: 5%;
+}
+
+#genre {
+   color: rgba(0, 0, 0, 0.557);
+   
+    
+}
+
+#more {
+    padding-top: 3%;
+}
+
+a {
+    margin-right: 2%;
+    text-decoration:none;
+}
+.Read {
+    margin: 10%;
+    margin-top: 0;
+}
